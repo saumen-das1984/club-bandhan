@@ -1,0 +1,476 @@
+body{
+    margin:auto;
+    background-color: #f4e7e1;
+}
+/*Header Css */
+#header{
+   height:60px; 
+   background-color:#8cb3d2;
+}
+#icon{
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 5px;
+}
+a{
+    text-decoration:none;
+    font-family: "Audiowide", sans-serif;
+    color:rgb(39, 52, 131)
+}
+#social{
+    float: right;
+}
+.icon_img{
+    height:45px;
+    width:45px
+}
+
+.no-marginLR {
+    margin-bottom: 0;
+}
+
+.red{color: red}
+.blue{color: rgb(39, 52, 131) }
+
+#p-font{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#modal-title {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#modal-content-img {
+    height:250px;
+    width:350px
+}
+
+.programimg{
+    height:250px !important;
+    width:350px !important;
+    align-items: center !important;
+}
+
+.sImg{
+    height:400px !important;
+    width:100%
+}
+
+/*Search Css*/
+#search{
+    height:450px; 
+    width:100% !important;
+    background-image: url('../image/swaraswati_2022.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100% 450px;
+    border-radius: 1%;
+ }
+ #logo{
+     color:#13648c;
+     background-color:rgba(241, 228, 210, .8);
+     font-family: "Audiowide", sans-serif;
+     text-align: center;
+     height:90px;
+     width:140px;
+     font-size:60px;
+     font-weight: bold;
+     border-radius: 50%;
+     margin-left:35%;
+     margin-top: 6%;
+     position: absolute;
+     animation:movelogo 20s infinite
+ }
+
+ .jumbotron{
+    margin-left:0%;
+    margin-bottom:0%;
+    width:100%;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color:rgb(197, 198, 241) !important;
+ }
+
+ .jumbotron-content {
+     margin-top : 5%
+ }
+
+.jumbotron-content > h1 {
+     font-size: 50px;
+     text-align: center;
+ }
+
+ .jumbotron-content > span {
+    font-size: 25px;
+    text-align: center;
+}
+
+ #jumbotron-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.modal-content-img {
+    text-align: center;
+ }
+ 
+ .pImg{
+    height:50% !important;
+    width:20%;
+    float: left;
+    margin:.5%;
+    border-radius: 5%;
+}
+
+h4 {
+    text-align: center !important;
+ }
+
+ h1
+ 
+ #logo > span {
+     margin-left:10%;
+     margin-top: 20%;
+     position: absolute;
+     font-family: "Audiowide", sans-serif;
+ }
+ 
+ @keyframes movelogo{
+     0% {margin-left: 25%}
+     12.5% {margin-left: 30%}
+     25% {margin-left: 40%}
+     37.5% {margin-left: 45%}
+     50% {margin-left: 53%}
+     62.5% {margin-left: 45%}
+     75% {margin-left: 40%}
+     87.5% {margin-left: 30%}
+     100% {margin-left: 25%}
+ }
+ 
+ /*
+ #logo:hover{
+     transition:margin-left 5s;
+     margin-left:50%
+ }*/
+ 
+ #heading{
+     font-size:45px;
+     margin-left:30%;
+     margin-top: 30%;
+     position: absolute;
+     background-color: rgb(245, 245, 245, .5);
+     color:rgb(39, 52, 131);
+     border-radius: 20%;
+     font-family: 'Baloo Da', cursive;
+ }
+
+.jumbotron-content {
+    font-family: Copperplate, Papyrus, fantasy;
+ }
+ 
+ .dropdown{
+     height:60px;
+     width:60%;
+     margin-left:27%;
+     margin-top: 20%;
+     position: absolute;
+ }
+
+ #jumbotron-font{
+    margin-right:16px;
+ }
+
+ select{
+     height:60px;
+     width:35%;
+     font-size: 20px;
+ }
+ 
+ #restSelect{
+     width:50%;
+ }
+
+.no-marginLR {
+    margin-left:0%;
+ }
+
+ #carousel-inner {
+    margin-top:0%;
+    width:100%;
+ }
+
+ #carousel-partner {
+     height: 50%;
+     width:100%;
+     float: left;
+ }
+ 
+ /*QuickSearch Css*/
+ #members{
+     width:100%;
+     margin-left:0%;
+     margin-top:2%;
+ }
+ .mHeading{
+     font-size:30px;
+     color:#13648c;
+     font-weight: bold;
+ }
+ 
+ .mHeading:hover{
+     color:#620433;
+ }
+ 
+ .memberSubHeading{
+     font-size:20px;
+     color:gray;
+     line-height:2;
+ }
+ .mHeading {
+     display:block;
+     margin-left:2%;
+ }
+ 
+ .tileContainer{
+     height:180px;
+     width:10%;
+     box-shadow: 10px 20px 10px gray;
+     float: left;
+     margin-left:2%;
+     margin-top:2%;
+     border-radius: 10%;
+     animation:danceContainer 20s infinite;
+ }
+ 
+ .tileComponent1 > img{
+     height:100px;
+     width:100%
+ }
+ 
+ .tileContainer:hover{
+     /*
+     transform: scale(1.1);
+     transform: rotate(-20deg)
+     transform: skewY(20deg)
+     10/5
+     */
+     transform: scale(1.1);
+ }
+ 
+ @keyframes danceContainer {
+     0% {transform: rotate(-5deg)}
+     25% {transform: rotate(0deg)}
+     35% {transform: scale(1.1);color:red}
+     50% {transform: rotate(5deg)}
+     75% {transform: rotate(0deg)}
+     100% {transform: rotate(-5deg)}
+ }
+ 
+ .tileComponent2 {
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ .tileComponent2 >h2 >a{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color:black !important;
+ }
+ 
+ .cardText{
+     font-size:25px
+ }
+ 
+ /*Footer Css*/
+ #footer{
+     height:300px; 
+     width:100%;
+     margin-top:2%;
+     text-align: center;
+     font-size: 15px;
+     padding:2%;
+     display: inline-block;
+     
+     /* background-color:#d2a08c */
+ }
+ 
+ .footerSec{
+     font-family: "Audiowide", sans-serif;
+     font-size: 25px;
+     float: left;
+     text-align: left;
+     width:100%;
+     color:#0347ad;
+     /* border-right:2px solid black */
+ }
+ 
+ ul > li{
+     list-style: none !important;
+ }
+ 
+ .lastSec{
+     border:none
+ }
+ 
+ @media screen and (max-width:1600px){
+     body {
+         background-color:rgb(241, 197, 204)
+     }
+     .jumbotron{
+        margin-left:0%;
+        margin-top:3%;
+        background-color:rgb(241, 197, 204) !important;
+     }
+ }
+ 
+ @media screen and (max-width:1400px){
+     body {
+         background-color:rgb(197, 198, 241)
+     }
+     .jumbotron{
+        margin-left:0%;
+        margin-top:0%;
+        background-color:rgb(197, 198, 241) !important;
+     }
+ }
+ 
+ @media screen and (max-width:1200px){
+     body {
+         background-color:rgb(197, 241, 241)
+     }
+     #heading{
+         margin-left: 30%;
+         margin-top: 31%;
+     }
+     .jumbotron{
+        margin-left:-5%;
+        margin-top:3%;
+        background-color:rgb(197, 241, 241) !important;
+     }
+     .dropdown{
+         margin-left:27%;
+         margin-top: 30%;
+     }
+     .cardText {
+         font-size: 20px;
+     }
+ }
+ 
+ @media screen and (max-width:1000px){
+     body {
+         background-color:rgb(238, 235, 191)
+     }
+     #heading{
+        margin-left: 25%;
+        margin-top: 40%;
+        font-size: 36px;
+    }
+    .jumbotron{
+        margin-left:-5%;
+        margin-top:3%;
+        background-color:rgb(238, 235, 191) !important;
+     }
+    .tileContainer{
+         width:45%;
+     }
+ }
+ @media screen and (max-width:800px){
+     body {
+         background-color:rgb(238, 208, 191)
+     }
+     #heading{
+         margin-left: 25%;
+         margin-top: 54%;
+         font-size: 36px;
+     }
+     .jumbotron{
+        margin-left:0%;
+        margin-top:5%;
+        background-color:rgb(238, 208, 191) !important;
+     }
+     .dropdown{
+         margin-left: 9%;
+         margin-top: 42%;
+         width: 100%;
+     }
+     #logo{
+         margin-left: 36%;
+     }
+     .cardText {
+         font-size: 18px;
+     }
+ }
+ @media screen and (max-width:600px){
+     body {
+         background-color:rgb(191, 238, 218)
+     }
+     .tileContainer {
+         width: 90%;
+         margin-top: 5%;
+     }
+     .jumbotron{
+        margin-left:0%;
+        margin-top:5%;
+        background-color:rgb(191, 238, 218) !important;
+     }
+     #heading {
+         margin-left: 14%;
+         margin-top: 68%;
+         font-size: 36px;
+     }
+     .dropdown {
+         margin-top: 53%;
+     }
+ }
+
+ @media screen and (max-width:500px){
+    body {
+        background-color:rgb(227, 236, 192)
+    }
+    .tileContainer {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .jumbotron{
+        margin-left:0%;
+        margin-top:5%;
+        background-color:rgb(227, 236, 192) !important;
+     }
+    #heading {
+        margin-left: 14%;
+        margin-top: 78%;
+        font-size: 36px;
+    }
+    .dropdown {
+        margin-top: 53%;
+    }
+}
+ 
+ /*
+ #text{
+     height:20px; 
+     width:60px;
+     background-color: skyblue;
+     border:3px groove orangered;
+     margin-left:30%;
+     margin-top:5%;
+     padding:25px
+ }
+ #test1{
+     height:200px;
+     width:200px;
+     background-color:hotpink
+ }
+ #test2{
+     height:100px;
+     width:100px;
+     background-color:rgb(145, 105, 255);
+     margin-top: 10%;
+     margin-left: 5%;
+     position: absolute;
+   
+ }
+ */
